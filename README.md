@@ -1,17 +1,17 @@
-# Resume Management System
+# 📄 Resume Management System
 
-## Overview
+## 🛠️ Overview
 
 The **Resume Management System** is a comprehensive solution designed to manage employee resumes effectively. It comprises two main components:
 
-- **Front-End Resume Management**: A React-based web application that provides an intuitive interface for managing employee details, projects, skills, and certifications.
-- **Back-End Resume Management**: A Node.js-based server that handles API requests, data management, and PDF resume storage using PostgreSQL as the database.
+- **🌐 Front-End Resume Management**: A React-based web application that provides an intuitive interface for managing employee details, projects, skills, and certifications.
+- **🔧 Back-End Resume Management**: A Node.js-based server that handles API requests, data management, and PDF resume storage using PostgreSQL as the database.
 
 This system is designed to be highly modular, allowing for easy customization and expansion. It is fully responsive and provides a seamless user experience across different devices.
 
-## Features
+## ✨ Features
 
-### Front-End
+### 🌐 Front-End
 
 - 🔒 **User Authentication**: Secure login mechanism for accessing the application.
 - 📝 **Employee Personal Details Management**: Add, update, and manage personal details of employees.
@@ -20,35 +20,37 @@ This system is designed to be highly modular, allowing for easy customization an
 - 📄 **PDF Resume Generation**: Generate and download resumes in PDF format.
 - 📱 **Responsive Design**: Optimized for both mobile and desktop devices.
 
-### Back-End
+### 🔧 Back-End
 
 - 🌐 **RESTful API Services**: Provides endpoints for managing employee data, projects, skills, and certifications.
 - 🗃️ **PostgreSQL Database Integration**: Efficiently handles data storage and retrieval.
 - 📄 **PDF Storage**: Store and retrieve PDF resumes from the database.
 - 🔄 **Data Integrity**: Ensures data consistency and reliability with Sequelize ORM.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-### Front-End
+### 🌐 Front-End
 
-- **React**: JavaScript library for building user interfaces.
-- **Redux Toolkit**: State management for complex application state.
-- **React Router DOM**: Handles navigation between different components.
-- **Axios**: Facilitates communication with the back-end API.
-- **Bootstrap** & **Material UI (MUI)**: Provides a consistent and responsive design.
-- **HTML2PDF.js** & **JSPDF**: Generates PDF documents from HTML content.
+- **⚛️ React**: JavaScript library for building user interfaces.
+- **🛠️ Redux Toolkit**: State management for complex application state.
+- **🔄 React Router DOM**: Handles navigation between different components.
+- **📡 Axios**: Facilitates communication with the back-end API.
+- **🎨 Bootstrap** & **Material UI (MUI)**: Provides a consistent and responsive design.
+- **📄 HTML2PDF.js** & **JSPDF**: Generates PDF documents from HTML content.
 
-### Back-End
+### 🔧 Back-End
 
-- **Node.js**: JavaScript runtime for building scalable network applications.
-- **Express.js**: Web framework for handling HTTP requests and routing.
-- **Sequelize**: ORM for managing database interactions with PostgreSQL.
-- **PostgreSQL**: Relational database system for storing and retrieving data.
-- **Multer** & **PDFKit**: Handles file uploads and PDF generation.
+- **🟢 Node.js**: JavaScript runtime for building scalable network applications.
+- **🚀 Express.js**: Web framework for handling HTTP requests and routing.
+- **🗃️ Sequelize**: ORM for managing database interactions with PostgreSQL.
+- **🐘 PostgreSQL**: Relational database system for storing and retrieving data.
+- **📁 Multer** & **PDFKit**: Handles file uploads and PDF generation.
 
-## Project Structure
+## 📁 Project Structure
 
-### Front-End Project Structure
+### 🌐 Front-End Project Structure
+
+
 
 ```
 /front-end-resume-management
@@ -90,7 +92,7 @@ This system is designed to be highly modular, allowing for easy customization an
 └── README.md # This file
 ```
 
-### Back-End Project Structure
+### 🔧 Back-End Project Structure
 
 ```
 /back-end-resume-management
@@ -135,16 +137,15 @@ This system is designed to be highly modular, allowing for easy customization an
 ├── server.js # Main entry point for the server
 └── README.md # This file
 ```
-
-## Installation
+## 🚀 Installation
 
 ### Prerequisites
 
-- **Node.js** (v12 or higher)
-- **PostgreSQL** (v9.5 or higher)
-- **npm** (Node Package Manager)
+- **🟢 Node.js** (v12 or higher)
+- **🐘 PostgreSQL** (v9.5 or higher)
+- **📦 npm** (Node Package Manager)
 
-### Front-End Setup
+### 🌐 Front-End Setup
 
 1. **Clone the Front-End Repository:**
 
@@ -172,7 +173,8 @@ This system is designed to be highly modular, allowing for easy customization an
 
    The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
-### Back-End Setup
+
+### 🔧 Back-End Setup
 
 1. **Clone the Back-End Repository:**
 
@@ -212,14 +214,13 @@ This system is designed to be highly modular, allowing for easy customization an
 
    The server will be accessible at [http://localhost:8080](http://localhost:8080).
 
-## Usage
-
+## 🚀 Usage
 ### Accessing the Application
 
 1. **Start Both Servers:**
 
-   - Front-End: Run `npm start` in the front-end directory.
-   - Back-End: Run `node sever.js` in the back-end directory.
+   - 🌐 Front-End: Run `npm start` in the front-end directory.
+   - 🔧 Back-End:  Run `node sever.js` in the back-end directory.
 
 2. **Open the Application:**
 
@@ -236,7 +237,7 @@ This system is designed to be highly modular, allowing for easy customization an
 5. **Generate PDFs:**
    - Use the PDF generation feature to create and download resumes in PDF format.
 
-### API Endpoints
+### 🔧 API Endpoints
 
 The back-end provides several RESTful API endpoints for managing employee data:
 
@@ -251,7 +252,8 @@ The back-end provides several RESTful API endpoints for managing employee data:
 
 Refer to the specific route files in the back-end repository for more details.
 
-## Contribution
+
+## 🤝 Contribution
 
 Contributions are welcome! To contribute:
 
@@ -261,19 +263,19 @@ Contributions are welcome! To contribute:
 4. **Push the Branch** (`git push origin feature-branch`).
 5. **Create a New Pull Request**.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-## Acknowledgements
+## 🙌 Acknowledgements
 
-- **React**: For building dynamic user interfaces.
-- **Redux Toolkit**: For state management.
-- **Express.js**: For the robust backend framework.
-- **Sequelize**: For ORM and seamless database interactions.
-- **PostgreSQL**: For reliable and scalable data storage.
-- **Multer** & **PDFKit**: For handling file uploads and PDF creation.
+- **⚛️ React**: For building dynamic user interfaces.
+- **🛠️ Redux Toolkit**: For state management.
+- **🚀 Express.js**: For the robust backend framework.
+- **🗃️ Sequelize**: For ORM and seamless database interactions.
+- **🐘 PostgreSQL**: For reliable and scalable data storage.
+- **📁 Multer** & **📄 PDFKit**: For handling file uploads and PDF creation.
 
-## Contact
+## 📬 Contact
 
 For questions or further information, please contact [parthjp5283@gmail.com](mailto:parthjp5283@gmail.com).
